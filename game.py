@@ -13,6 +13,14 @@ rolls = {
         'defeats': ['paper'],
         'defeated_by': ['rock']
     },
+    'lizard': {
+        'defeats': ['paper', 'spock'],
+        'defeated_by': ['rock']
+    },
+    'spock': {
+        'defeats': ['paper', 'lizard'],
+        'defeated_by': ['rock']
+    },
 }
 
 
@@ -23,8 +31,7 @@ def main():
 
 def show_header():
     print("---------------------------")
-    print("   Rock Paper Scissors")
-    print(" Data Structures Edition")
+    print("   Rock Paper Scissors v2.0 ")
     print("---------------------------")
 
 
